@@ -6,6 +6,58 @@
     <title>Inscripcion</title>
 </head>
 <body>
-    <p>Inscripcion</p>    
+    <header>
+        <h1>Expo Joven FullStack 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="/ejemplo2-html/index.html" title="Ir al inicio">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Formulario de Inscripción a nuestros talleres</h2>
+                <form>
+                    <label for="nombre" >Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Pepin" title="Ingresa tu nombre" required><br><br>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Pepito" title="Ingresa tu apellido" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="pepin@loquesea.com" title="Ingresa tu email" required><br><br>
+
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" placeholder="--" title="Ingresa tu edad" required><br><br>
+
+                    <lable for="cursos">Curso de interes:</lable>
+                    <select id="cursos" name="curso" title="Selecciona un curso" required>
+                        <option value="opcion1">HTML y CSS</option>
+                        <option value="opcion2">JavaScript</option>
+                        <option value="opcion3">PHP y MySQL</option>
+                    </select><br><br>
+
+                    <label for="turnos">Turno de interes:</label>
+                    <select id="turnos" name="turno" title="Selecciona un turno" required>
+                        <option value="opcion1">Mañana</option>
+                        <option value="opcion2">Tarde</option>
+                        <option value="opcion3">Noche</option>
+                    </select><br><br>
+
+                    <label>
+                        <input type="checkbox" name="terminos" required>
+                        Acepto los términos y condiciones.
+                    </label><br><br>
+
+                    <button type="submit" title="Enviar formulario">Enviar</button>
+                </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Julieta Bobadilla | Instituto Superior Brazo Oriental, 2026. &copy; Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
